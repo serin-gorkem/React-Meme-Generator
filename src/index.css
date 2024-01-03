@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .max-container {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+  .main-bg{
+    @apply bg-gradient-to-r from-[#672280] to-[#A626D3];
+  }
+  .text-shadow{
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+  }
+}
